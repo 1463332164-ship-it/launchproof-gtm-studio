@@ -44,3 +44,7 @@ No personal U1 validation was recorded. Historical test counts are not added to 
 ## Public release boundary
 
 The public copy adds a preview notice and current page metadata, moves the non-personal test fixture to examples, and adds public documentation. Domain rules and official seed facts remain unchanged. No LP05/V2 feature was developed. Built assets in docs are generated from the included source.
+
+## File manifest convention
+
+`FILE_MANIFEST.json` hashes repository text after CRLF-to-LF normalization, matching `.gitattributes`. Windows working-copy line endings are not semantic changes. The deployed asset hashes above are raw HTTP/file bytes. Published report content was verified against the local report with this text normalization.
