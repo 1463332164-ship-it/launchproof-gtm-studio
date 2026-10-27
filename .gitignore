@@ -1,0 +1,14 @@
+app/node_modules/
+app/.pnpm-store/
+app/dist/
+app/.vite/
+app/.vitest/
+*.local
+*.log
+.env
+.env.*
+outputs/
+practice/
+*.docx
+*.pdf
+.DS_Store

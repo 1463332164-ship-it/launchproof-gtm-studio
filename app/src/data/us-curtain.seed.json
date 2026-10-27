@@ -1,0 +1,666 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectId": "LP-US-CURTAIN",
+  "projectRevision": 1,
+  "mission": {
+    "id": "M-US-CURTAIN",
+    "revision": 1,
+    "createdAt": "2026-10-24T14:40:32+00:00",
+    "updatedAt": "2026-10-24T14:40:32+00:00",
+    "createdBy": "ai_assisted",
+    "archived": false,
+    "question": "在资料有限时，如何解释两款杆式窗帘自动化产品的购买前提？",
+    "market": "US",
+    "currency": "USD",
+    "timeZone": "America/New_York",
+    "asOfDate": "2026-10-24",
+    "focalProductRef": {
+      "id": "P-SB-C3-T1-US",
+      "revision": 1
+    },
+    "competitorRefs": [
+      {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      }
+    ],
+    "decisionDeadline": null,
+    "successCriteria": [
+      "逐条核查出处、精确型号和适用限制",
+      "能说明资料支持不等于完整可购买"
+    ],
+    "exclusions": [
+      "完整安装认证",
+      "真实销量、成本和用户研究结论",
+      "V2供需与预算计算"
+    ],
+    "state": "draft"
+  },
+  "products": [
+    {
+      "id": "P-SB-C3-T1-US",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "brand": "SwitchBot",
+      "modelName": "Curtain 3",
+      "variant": "Rod Type 1",
+      "market": "US",
+      "manufacturerSku": null,
+      "scopeNotes": "精确Type 1对象；家族资料单独记录范围。",
+      "sourceRefs": [
+        {
+          "id": "S01",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "id": "P-AQ-E1-ROD-US",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "brand": "Aqara",
+      "modelName": "Curtain Driver E1",
+      "variant": "Rod Version",
+      "market": "US",
+      "manufacturerSku": null,
+      "scopeNotes": "Rod Version，不混用Track或Roller Shade E1。",
+      "sourceRefs": [
+        {
+          "id": "S04",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "SwitchBot Curtain 3 Rod Type 1｜US",
+      "publisher": "SwitchBot",
+      "url": "https://us.switch-bot.com/products/switchbot-curtain-3-rod-type-1",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Product Description",
+      "summary": "官方标称杆径10–40mm，并以免钻孔夹装描述安装设计。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "P-SB-C3-T1-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "不采用适配率或安装秒数宣传作为实测结果；未核实真实价格/库存。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 90,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S02",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "SwitchBot Curtain 3｜US通用型号",
+      "publisher": "SwitchBot",
+      "url": "https://us.switch-bot.com/products/switchbot-curtain-3",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "The Perfect Solution / Handles Heavy Curtains",
+      "summary": "通用产品说明排除细于5/8英寸的伸缩杆。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "与Rod Type 1的适用关系未明确，不能直接转用。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 90,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S03",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Matter over Bridge｜配置帮助",
+      "publisher": "SwitchBot",
+      "url": "https://support.switch-bot.com/hc/en-us/articles/35927178604311-How-to-Connect-SwitchBot-Devices-to-Third-Party-Platforms-Matter-over-Bridge",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Required devices / Add to Apple Home",
+      "summary": "所查路径分列设备、品牌桥接器和Apple平台控制器。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "属于Curtain 3家族说明，Type 1地区/固件完整组合仍待核。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 30,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S04",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Curtain Driver E1 (Rod Version)｜US",
+      "publisher": "Aqara",
+      "url": "https://www.aqara.com/us/product/curtain-driver-e1-rod-version/",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+      "summary": "官方杆径25–32mm，不支持伸缩杆；产品页描述Zigbee 3.0。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "P-AQ-E1-ROD-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "保留历史OTA措辞；网页下方其他产品FAQ不作为E1证据；未核实结算与库存。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 30,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S05",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Hub M2 Matter历史更新公告",
+      "publisher": "Aqara",
+      "url": "https://www.aqara.com/en/aqara-hub-m2-matter-update-has-started-to-roll-out/",
+      "sourceType": "official_announcement",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Firmware 4.0.0 (Beta) / device list",
+      "summary": "历史Beta公告名单含Curtain Driver E1。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "AQ-E1-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "不是2026年US完整配置证明；桥接不代表Zigbee变成Thread。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S06",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Curtain 3杆径兼容图｜继承待核",
+      "publisher": "SwitchBot",
+      "url": "https://support.switch-bot.com/hc/en-us/articles/33395020305047-Rod-Rail-Size-Compatible-With-SwitchBot-Curtain-3",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "inherited_unchecked",
+      "locator": "兼容图（本轮未目视复核）",
+      "summary": "P2审计列有兼容图来源。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "图片本轮未读取，不导入图片数值。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S07",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Aqara E1产品帮助FAQ｜继承待核",
+      "publisher": "Aqara",
+      "url": "https://store-support.aqara.com/products/aqara-smart-curtain-motor-e1-rod-version#faq",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "inherited_unchecked",
+      "locator": "动态FAQ（本轮未展开）",
+      "summary": "P2审计列有产品帮助入口。",
+      "shortQuote": null,
+      "market": "UNKNOWN",
+      "productScope": [
+        "P-AQ-E1-ROD-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "动态答案未复核，不能支持新增现行兼容结论。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "Type 1官方标称适用杆径为10–40mm。",
+      "statementEn": "The Type 1 product page states a rod diameter range of 10–40 mm.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "P-SB-C3-T1-US",
+      "predicate": "rod_diameter_range",
+      "value": {
+        "min": 10,
+        "max": 40,
+        "unit": "mm",
+        "inclusiveMin": true,
+        "inclusiveMax": true
+      },
+      "missingReason": null,
+      "conditions": [
+        "仅尺寸项；不代表重量、摩擦、间隙和校准均满足。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S01",
+            "revision": 1
+          },
+          "locator": "Product Description",
+          "relation": "supports",
+          "applicabilityNote": "仅尺寸项；不代表重量、摩擦、间隙和校准均满足。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F002",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1 Rod官方标称杆径范围为25–32mm。",
+      "statementEn": "The E1 Rod product page states a rod diameter range of 25–32 mm.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "rod_diameter_range",
+      "value": {
+        "min": 25,
+        "max": 32,
+        "unit": "mm",
+        "inclusiveMin": true,
+        "inclusiveMax": true
+      },
+      "missingReason": null,
+      "conditions": [
+        "必须另核对杆结构和完整安装条件。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "必须另核对杆结构和完整安装条件。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F003",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1 Rod官方说明不支持伸缩杆。",
+      "statementEn": "The E1 Rod product page states that extendable rods are not supported.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "extendable_rods_supported",
+      "value": false,
+      "missingReason": null,
+      "conditions": [
+        "尺寸符合不能覆盖结构排除条件；false表示明确不支持，不是未知。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "尺寸符合不能覆盖结构排除条件；false表示明确不支持，不是未知。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F004",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1产品页描述其使用Zigbee 3.0协议。",
+      "statementEn": "The E1 product page describes Zigbee 3.0 connectivity.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "radio_protocol",
+      "value": "Zigbee 3.0",
+      "missingReason": null,
+      "conditions": [
+        "不等于原生Matter或Thread，也不证明所有生态组合。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "不等于原生Matter或Thread，也不证明所有生态组合。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F005",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "所查Curtain 3桥接路径区分品牌桥接器与Apple控制器。",
+      "statementEn": "The documented Curtain 3 bridge route distinguishes the brand bridge from the Apple platform controller.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "SB-CURTAIN3-FAMILY",
+      "predicate": "apple_bridge_requirements",
+      "value": "品牌桥接器与Apple平台控制器分别核查",
+      "missingReason": null,
+      "conditions": [
+        "Type 1完整型号、地区、Hub与固件组合仍待核。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S03",
+            "revision": 1
+          },
+          "locator": "Required devices / Add to Apple Home",
+          "relation": "supports",
+          "applicabilityNote": "Type 1完整型号、地区、Hub与固件组合仍待核。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "unresolved",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F006",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "M2 Beta公告名单列有Curtain Driver E1。",
+      "statementEn": "The historical M2 beta announcement lists Curtain Driver E1.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "AQ-E1-FAMILY",
+      "predicate": "historical_m2_beta_listing",
+      "value": true,
+      "missingReason": null,
+      "conditions": [
+        "仅历史公告事实；不能推广成2026年US完整兼容保证。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S05",
+            "revision": 1
+          },
+          "locator": "Firmware 4.0.0 (Beta) / device list",
+          "relation": "supports",
+          "applicabilityNote": "仅历史公告事实；不能推广成2026年US完整兼容保证。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "unresolved",
+      "freshness": "stale",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F007",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "通用Curtain 3页列出细于5/8英寸伸缩杆的限制。",
+      "statementEn": "The generic Curtain 3 page excludes extendable rods thinner than 5/8 inch.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "SB-CURTAIN3-FAMILY",
+      "predicate": "generic_extendable_rod_exclusion",
+      "value": {
+        "value": 0.625,
+        "unit": "inch",
+        "origin": "official",
+        "missingReason": null,
+        "sourceRefs": [
+          {
+            "id": "S02",
+            "revision": 1
+          }
+        ],
+        "assumptionId": null
+      },
+      "missingReason": null,
+      "conditions": [
+        "通用Rod资料与Type 1对应关系未明确；禁止直接转用。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S02",
+            "revision": 1
+          },
+          "locator": "The Perfect Solution / Handles Heavy Curtains",
+          "relation": "supports",
+          "applicabilityNote": "通用Rod资料与Type 1对应关系未明确；禁止直接转用。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "out_of_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F008",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "Type 1专页以免钻孔夹装描述安装设计。",
+      "statementEn": "The Type 1 page describes a clip-on design without drilling.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "P-SB-C3-T1-US",
+      "predicate": "vendor_installation_description",
+      "value": "厂商宣传免钻孔夹装",
+      "missingReason": null,
+      "conditions": [
+        "是厂商设计描述，不代表本项目实测；适合所有租房者仍无证据。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S01",
+            "revision": 1
+          },
+          "locator": "Product Description",
+          "relation": "supports",
+          "applicabilityNote": "是厂商设计描述，不代表本项目实测；适合所有租房者仍无证据。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    }
+  ],
+  "insights": [],
+  "hypotheses": [],
+  "barriers": [],
+  "messages": [],
+  "decisions": [],
+  "scenarios": [],
+  "changeEvents": []
+}

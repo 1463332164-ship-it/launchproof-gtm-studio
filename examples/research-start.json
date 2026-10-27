@@ -1,0 +1,1204 @@
+{
+  "schemaVersion": "1.3.0",
+  "projectId": "LP-V1-PERSONAL-PRACTICE",
+  "projectRevision": 2,
+  "mission": {
+    "id": "M-US-CURTAIN",
+    "revision": 1,
+    "createdAt": "2026-10-24T14:40:32+00:00",
+    "updatedAt": "2026-10-24T14:40:32+00:00",
+    "createdBy": "ai_assisted",
+    "archived": false,
+    "question": "在资料有限时，如何解释两款杆式窗帘自动化产品的购买前提？",
+    "market": "US",
+    "currency": "USD",
+    "timeZone": "America/New_York",
+    "asOfDate": "2026-10-24",
+    "focalProductRef": {
+      "id": "P-SB-C3-T1-US",
+      "revision": 1
+    },
+    "competitorRefs": [
+      {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      }
+    ],
+    "decisionDeadline": null,
+    "successCriteria": [
+      "逐条核查出处、精确型号和适用限制",
+      "能说明资料支持不等于完整可购买"
+    ],
+    "exclusions": [
+      "完整安装认证",
+      "真实销量、成本和用户研究结论",
+      "V2供需与预算计算"
+    ],
+    "state": "draft"
+  },
+  "products": [
+    {
+      "id": "P-SB-C3-T1-US",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "brand": "SwitchBot",
+      "modelName": "Curtain 3",
+      "variant": "Rod Type 1",
+      "market": "US",
+      "manufacturerSku": null,
+      "scopeNotes": "精确Type 1对象；家族资料单独记录范围。",
+      "sourceRefs": [
+        {
+          "id": "S01",
+          "revision": 1
+        }
+      ]
+    },
+    {
+      "id": "P-AQ-E1-ROD-US",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "brand": "Aqara",
+      "modelName": "Curtain Driver E1",
+      "variant": "Rod Version",
+      "market": "US",
+      "manufacturerSku": null,
+      "scopeNotes": "Rod Version，不混用Track或Roller Shade E1。",
+      "sourceRefs": [
+        {
+          "id": "S04",
+          "revision": 1
+        }
+      ]
+    }
+  ],
+  "missionHistory": [],
+  "meaningReviews": [],
+  "sources": [
+    {
+      "id": "S01",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "SwitchBot Curtain 3 Rod Type 1｜US",
+      "publisher": "SwitchBot",
+      "url": "https://us.switch-bot.com/products/switchbot-curtain-3-rod-type-1",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Product Description",
+      "summary": "官方标称杆径10–40mm，并以免钻孔夹装描述安装设计。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "P-SB-C3-T1-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "不采用适配率或安装秒数宣传作为实测结果；未核实真实价格/库存。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 90,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S02",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "SwitchBot Curtain 3｜US通用型号",
+      "publisher": "SwitchBot",
+      "url": "https://us.switch-bot.com/products/switchbot-curtain-3",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "The Perfect Solution / Handles Heavy Curtains",
+      "summary": "通用产品说明排除细于5/8英寸的伸缩杆。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "与Rod Type 1的适用关系未明确，不能直接转用。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 90,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S03",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Matter over Bridge｜配置帮助",
+      "publisher": "SwitchBot",
+      "url": "https://support.switch-bot.com/hc/en-us/articles/35927178604311-How-to-Connect-SwitchBot-Devices-to-Third-Party-Platforms-Matter-over-Bridge",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Required devices / Add to Apple Home",
+      "summary": "所查路径分列设备、品牌桥接器和Apple平台控制器。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "属于Curtain 3家族说明，Type 1地区/固件完整组合仍待核。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 30,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S04",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Curtain Driver E1 (Rod Version)｜US",
+      "publisher": "Aqara",
+      "url": "https://www.aqara.com/us/product/curtain-driver-e1-rod-version/",
+      "sourceType": "official_product",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+      "summary": "官方杆径25–32mm，不支持伸缩杆；产品页描述Zigbee 3.0。",
+      "shortQuote": null,
+      "market": "US",
+      "productScope": [
+        "P-AQ-E1-ROD-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "保留历史OTA措辞；网页下方其他产品FAQ不作为E1证据；未核实结算与库存。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": 30,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S05",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Hub M2 Matter历史更新公告",
+      "publisher": "Aqara",
+      "url": "https://www.aqara.com/en/aqara-hub-m2-matter-update-has-started-to-roll-out/",
+      "sourceType": "official_announcement",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "body_read",
+      "locator": "Firmware 4.0.0 (Beta) / device list",
+      "summary": "历史Beta公告名单含Curtain Driver E1。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "AQ-E1-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "不是2026年US完整配置证明；桥接不代表Zigbee变成Thread。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S06",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Curtain 3杆径兼容图｜继承待核",
+      "publisher": "SwitchBot",
+      "url": "https://support.switch-bot.com/hc/en-us/articles/33395020305047-Rod-Rail-Size-Compatible-With-SwitchBot-Curtain-3",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "inherited_unchecked",
+      "locator": "兼容图（本轮未目视复核）",
+      "summary": "P2审计列有兼容图来源。",
+      "shortQuote": null,
+      "market": "GLOBAL",
+      "productScope": [
+        "SB-CURTAIN3-FAMILY"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "图片本轮未读取，不导入图片数值。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    },
+    {
+      "id": "S07",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "title": "Aqara E1产品帮助FAQ｜继承待核",
+      "publisher": "Aqara",
+      "url": "https://store-support.aqara.com/products/aqara-smart-curtain-motor-e1-rod-version#faq",
+      "sourceType": "official_support",
+      "accessedAt": "2026-10-24",
+      "publishedAt": null,
+      "pageUpdatedAt": null,
+      "accessStatus": "inherited_unchecked",
+      "locator": "动态FAQ（本轮未展开）",
+      "summary": "P2审计列有产品帮助入口。",
+      "shortQuote": null,
+      "market": "UNKNOWN",
+      "productScope": [
+        "P-AQ-E1-ROD-US"
+      ],
+      "reusePolicy": "summary_link_only",
+      "limitation": "动态答案未复核，不能支持新增现行兼容结论。",
+      "checkedBy": "Codex：沿用2026-10-24规划资料核对；不代表用户亲自确认",
+      "reviewIntervalDays": null,
+      "provenance": {
+        "inheritedProject": "smart-curtain-purchase-checker",
+        "path": "verification/SOURCE_AUDIT.md",
+        "commitSha": "e162c49d127516909850f65d9436614253aad94c",
+        "blobSha": "8a626c777380d10853e9a12b540065d548fb6931",
+        "originalAccessDate": "2026-10-22"
+      }
+    }
+  ],
+  "facts": [
+    {
+      "id": "F001",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "Type 1官方标称适用杆径为10–40mm。",
+      "statementEn": "The Type 1 product page states a rod diameter range of 10–40 mm.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "P-SB-C3-T1-US",
+      "predicate": "rod_diameter_range",
+      "value": {
+        "min": 10,
+        "max": 40,
+        "unit": "mm",
+        "inclusiveMin": true,
+        "inclusiveMax": true
+      },
+      "missingReason": null,
+      "conditions": [
+        "仅尺寸项；不代表重量、摩擦、间隙和校准均满足。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S01",
+            "revision": 1
+          },
+          "locator": "Product Description",
+          "relation": "supports",
+          "applicabilityNote": "仅尺寸项；不代表重量、摩擦、间隙和校准均满足。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F002",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1 Rod官方标称杆径范围为25–32mm。",
+      "statementEn": "The E1 Rod product page states a rod diameter range of 25–32 mm.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "rod_diameter_range",
+      "value": {
+        "min": 25,
+        "max": 32,
+        "unit": "mm",
+        "inclusiveMin": true,
+        "inclusiveMax": true
+      },
+      "missingReason": null,
+      "conditions": [
+        "必须另核对杆结构和完整安装条件。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "必须另核对杆结构和完整安装条件。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F003",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1 Rod官方说明不支持伸缩杆。",
+      "statementEn": "The E1 Rod product page states that extendable rods are not supported.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "extendable_rods_supported",
+      "value": false,
+      "missingReason": null,
+      "conditions": [
+        "尺寸符合不能覆盖结构排除条件；false表示明确不支持，不是未知。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "尺寸符合不能覆盖结构排除条件；false表示明确不支持，不是未知。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F004",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "E1产品页描述其使用Zigbee 3.0协议。",
+      "statementEn": "The E1 product page describes Zigbee 3.0 connectivity.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "P-AQ-E1-ROD-US",
+      "predicate": "radio_protocol",
+      "value": "Zigbee 3.0",
+      "missingReason": null,
+      "conditions": [
+        "不等于原生Matter或Thread，也不证明所有生态组合。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S04",
+            "revision": 1
+          },
+          "locator": "Rods / Zigbee 3.0 Protocol / Matter footnote",
+          "relation": "supports",
+          "applicabilityNote": "不等于原生Matter或Thread，也不证明所有生态组合。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F005",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "所查Curtain 3桥接路径区分品牌桥接器与Apple控制器。",
+      "statementEn": "The documented Curtain 3 bridge route distinguishes the brand bridge from the Apple platform controller.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "SB-CURTAIN3-FAMILY",
+      "predicate": "apple_bridge_requirements",
+      "value": "品牌桥接器与Apple平台控制器分别核查",
+      "missingReason": null,
+      "conditions": [
+        "Type 1完整型号、地区、Hub与固件组合仍待核。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S03",
+            "revision": 1
+          },
+          "locator": "Required devices / Add to Apple Home",
+          "relation": "supports",
+          "applicabilityNote": "Type 1完整型号、地区、Hub与固件组合仍待核。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "unresolved",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F006",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "M2 Beta公告名单列有Curtain Driver E1。",
+      "statementEn": "The historical M2 beta announcement lists Curtain Driver E1.",
+      "subjectRef": {
+        "id": "P-AQ-E1-ROD-US",
+        "revision": 1
+      },
+      "claimScope": "AQ-E1-FAMILY",
+      "predicate": "historical_m2_beta_listing",
+      "value": true,
+      "missingReason": null,
+      "conditions": [
+        "仅历史公告事实；不能推广成2026年US完整兼容保证。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S05",
+            "revision": 1
+          },
+          "locator": "Firmware 4.0.0 (Beta) / device list",
+          "relation": "supports",
+          "applicabilityNote": "仅历史公告事实；不能推广成2026年US完整兼容保证。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "unresolved",
+      "freshness": "stale",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F007",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "通用Curtain 3页列出细于5/8英寸伸缩杆的限制。",
+      "statementEn": "The generic Curtain 3 page excludes extendable rods thinner than 5/8 inch.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "SB-CURTAIN3-FAMILY",
+      "predicate": "generic_extendable_rod_exclusion",
+      "value": {
+        "value": 0.625,
+        "unit": "inch",
+        "origin": "official",
+        "missingReason": null,
+        "sourceRefs": [
+          {
+            "id": "S02",
+            "revision": 1
+          }
+        ],
+        "assumptionId": null
+      },
+      "missingReason": null,
+      "conditions": [
+        "通用Rod资料与Type 1对应关系未明确；禁止直接转用。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S02",
+            "revision": 1
+          },
+          "locator": "The Perfect Solution / Handles Heavy Curtains",
+          "relation": "supports",
+          "applicabilityNote": "通用Rod资料与Type 1对应关系未明确；禁止直接转用。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "out_of_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    },
+    {
+      "id": "F008",
+      "revision": 1,
+      "createdAt": "2026-10-24T14:40:32+00:00",
+      "updatedAt": "2026-10-24T14:40:32+00:00",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statementZh": "Type 1专页以免钻孔夹装描述安装设计。",
+      "statementEn": "The Type 1 page describes a clip-on design without drilling.",
+      "subjectRef": {
+        "id": "P-SB-C3-T1-US",
+        "revision": 1
+      },
+      "claimScope": "P-SB-C3-T1-US",
+      "predicate": "vendor_installation_description",
+      "value": "厂商宣传免钻孔夹装",
+      "missingReason": null,
+      "conditions": [
+        "是厂商设计描述，不代表本项目实测；适合所有租房者仍无证据。"
+      ],
+      "evidenceLinks": [
+        {
+          "sourceRef": {
+            "id": "S01",
+            "revision": 1
+          },
+          "locator": "Product Description",
+          "relation": "supports",
+          "applicabilityNote": "是厂商设计描述，不代表本项目实测；适合所有租房者仍无证据。"
+        }
+      ],
+      "supportStatus": "supported",
+      "applicability": "in_scope",
+      "freshness": "current",
+      "conflictGroupId": null,
+      "supersedesRef": null,
+      "reviewNote": "规划种子窄事实；仅资料支持，不是实机、市场或人工广告审核。",
+      "reviewedAt": "2026-10-24"
+    }
+  ],
+  "insights": [],
+  "hypotheses": [
+    {
+      "id": "H001",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statement": "部分希望改装既有窗帘的人可能把杆径符合误认为整体可安装。",
+      "segment": "考虑改装既有窗帘的人（待验证）",
+      "context": "核对杆径与杆结构",
+      "basisRefs": [
+        {
+          "id": "F001",
+          "revision": 1
+        },
+        {
+          "id": "F002",
+          "revision": 1
+        },
+        {
+          "id": "F003",
+          "revision": 1
+        }
+      ],
+      "basisNote": "来自原规划的设计假设；依据技术条件提出问题，没有访谈或发生率证据。",
+      "falsificationCriterion": "若目标样本无需提示始终主动检查结构，则降低或缩小该假设。",
+      "validationPlan": {
+        "method": "拟议任务观察，尚未招募",
+        "recruitmentCriteria": "有美国使用情境、实际考虑既有窗帘自动化的人",
+        "task": "解释一份配置说明，再比较两份信息材料",
+        "measure": "是否独立找出关键前提、解释是否正确",
+        "decisionRule": "拟议：5人中至少2人独立漏看同一前提则优先改善说明；非总体发生率",
+        "plannedSampleSize": 5
+      },
+      "researchStatus": "untested",
+      "actualSampleSize": 0,
+      "observationRefs": [],
+      "owner": "待用户指定",
+      "nextReviewDate": null
+    },
+    {
+      "id": "H002",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statement": "计划接入Apple Home的人可能不清楚品牌桥接器与平台控制器的区别。",
+      "segment": "计划接入Apple Home的人（待验证）",
+      "context": "购买前识别所需设备",
+      "basisRefs": [
+        {
+          "id": "F005",
+          "revision": 1
+        },
+        {
+          "id": "F006",
+          "revision": 1
+        }
+      ],
+      "basisNote": "来自原规划的设计假设；依据技术条件提出问题，没有访谈或发生率证据。",
+      "falsificationCriterion": "若目标样本无需提示即可列出完整设备与限制，则降低该假设。",
+      "validationPlan": {
+        "method": "拟议任务观察，尚未招募",
+        "recruitmentCriteria": "有美国使用情境、实际考虑既有窗帘自动化的人",
+        "task": "解释一份配置说明，再比较两份信息材料",
+        "measure": "是否独立找出关键前提、解释是否正确",
+        "decisionRule": "拟议：5人中至少2人独立漏看同一前提则优先改善说明；非总体发生率",
+        "plannedSampleSize": 5
+      },
+      "researchStatus": "untested",
+      "actualSampleSize": 0,
+      "observationRefs": [],
+      "owner": "待用户指定",
+      "nextReviewDate": null
+    },
+    {
+      "id": "H003",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "statement": "对首次接触此类设备的人，先解释购买前提可能比只强调便利更有助于理解。",
+      "segment": "首次接触窗帘自动化的人（待验证）",
+      "context": "比较改装便利与配置透明信息",
+      "basisRefs": [
+        {
+          "id": "F008",
+          "revision": 1
+        },
+        {
+          "id": "F003",
+          "revision": 1
+        }
+      ],
+      "basisNote": "来自原规划的设计假设；依据技术条件提出问题，没有访谈或发生率证据。",
+      "falsificationCriterion": "若交替呈现时配置前提说明未改善理解或引入误解，则缩小或推翻假设。",
+      "validationPlan": {
+        "method": "拟议任务观察，尚未招募",
+        "recruitmentCriteria": "有美国使用情境、实际考虑既有窗帘自动化的人",
+        "task": "解释一份配置说明，再比较两份信息材料",
+        "measure": "是否独立找出关键前提、解释是否正确",
+        "decisionRule": "拟议：5人中至少2人独立漏看同一前提则优先改善说明；非总体发生率",
+        "plannedSampleSize": 5
+      },
+      "researchStatus": "untested",
+      "actualSampleSize": 0,
+      "observationRefs": [],
+      "owner": "待用户指定",
+      "nextReviewDate": null
+    }
+  ],
+  "barriers": [
+    {
+      "id": "B001",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "hypothesisRef": {
+        "id": "H001",
+        "revision": 1
+      },
+      "label": "尺寸与结构条件可能混淆",
+      "impact": 4,
+      "relevance": 4,
+      "actionability": 1,
+      "scoreRationale": {
+        "impact": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。",
+        "relevance": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。",
+        "actionability": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。"
+      },
+      "weights": {
+        "impact": 0.5,
+        "relevance": 0.3,
+        "actionability": 0.2
+      },
+      "evidenceNote": "AI准备的纯设计练习值，实际样本0；不代表用户个人评分或需求强度。"
+    },
+    {
+      "id": "B002",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "hypothesisRef": {
+        "id": "H002",
+        "revision": 1
+      },
+      "label": "生态设备层级可能混淆",
+      "impact": 3,
+      "relevance": 3,
+      "actionability": 4,
+      "scoreRationale": {
+        "impact": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。",
+        "relevance": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。",
+        "actionability": "AI准备的BR06算术练习值，非真实消费者评分；供解释权重变化。"
+      },
+      "weights": {
+        "impact": 0.5,
+        "relevance": 0.3,
+        "actionability": 0.2
+      },
+      "evidenceNote": "AI准备的纯设计练习值，实际样本0；不代表用户个人评分或需求强度。"
+    },
+    {
+      "id": "B003",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "hypothesisRef": {
+        "id": "H003",
+        "revision": 1
+      },
+      "label": "购买前提说明是否易理解",
+      "impact": null,
+      "relevance": null,
+      "actionability": null,
+      "scoreRationale": {
+        "impact": "",
+        "relevance": "",
+        "actionability": ""
+      },
+      "weights": {
+        "impact": 0.5,
+        "relevance": 0.3,
+        "actionability": 0.2
+      },
+      "evidenceNote": "设计假设，实际样本0；评分待作者给出理由，不预填痛点强度。"
+    }
+  ],
+  "messages": [
+    {
+      "id": "M-A",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "missionRef": {
+        "id": "M-US-CURTAIN",
+        "revision": 1
+      },
+      "segmentHypothesisRef": {
+        "id": "H001",
+        "revision": 1
+      },
+      "barrierRefs": [
+        {
+          "id": "B001",
+          "revision": 1
+        }
+      ],
+      "headlineZh": "为既有窗帘探索自动化，先确认杆式安装条件。",
+      "headlineEn": "Explore automation for your existing curtains. Check rod installation requirements first.",
+      "valuePropositionZh": "改装便利是待检验的信息方向；先说明厂商设计，再保留购买前提。",
+      "valuePropositionEn": "Retrofit convenience is a research direction. Explain the vendor design and retain purchase conditions.",
+      "claimItems": [
+        {
+          "id": "CA1",
+          "kind": "fact",
+          "textZh": "Type 1专页以免钻孔夹装描述安装设计。",
+          "textEn": "The Type 1 page describes a clip-on design without drilling.",
+          "basisRefs": [
+            {
+              "id": "F008",
+              "revision": 1
+            }
+          ],
+          "qualifierZh": "是厂商设计描述，不代表本项目实测；适合所有租房者仍无证据。",
+          "qualifierEn": "This is a vendor design description, not an installation test by this project. Suitability for renters is unproven.",
+          "comparisonScope": null,
+          "humanMeaningReview": false
+        },
+        {
+          "id": "CA2",
+          "kind": "hypothesis",
+          "textZh": "部分改装用户可能需要先分清尺寸与结构条件。",
+          "textEn": "Some retrofit users may need to distinguish dimensions from structural requirements.",
+          "basisRefs": [
+            {
+              "id": "H001",
+              "revision": 1
+            }
+          ],
+          "qualifierZh": "人群需求尚未验证；样本0。",
+          "qualifierEn": "The segment need is untested; actual sample size is 0.",
+          "comparisonScope": null,
+          "humanMeaningReview": false
+        }
+      ],
+      "callToAction": "先检查杆径和结构；本研究样稿不是购买认证。",
+      "reviewState": "draft",
+      "reviewerNote": "",
+      "inputFingerprint": null,
+      "humanReview": null
+    },
+    {
+      "id": "M-B",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:25:18.619Z",
+      "updatedAt": "2026-10-25T17:25:18.619Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "missionRef": {
+        "id": "M-US-CURTAIN",
+        "revision": 1
+      },
+      "segmentHypothesisRef": {
+        "id": "H003",
+        "revision": 1
+      },
+      "barrierRefs": [
+        {
+          "id": "B002",
+          "revision": 1
+        },
+        {
+          "id": "B003",
+          "revision": 1
+        }
+      ],
+      "headlineZh": "先核对窗帘条件和生态设备，再决定自动化方案。",
+      "headlineEn": "Check curtain requirements and ecosystem devices before choosing an automation setup.",
+      "valuePropositionZh": "配置透明是本项目的信息策略假设，不代表已验证定位或品牌完整核查。",
+      "valuePropositionEn": "Configuration transparency is a messaging hypothesis, not validated positioning or a complete brand check.",
+      "claimItems": [
+        {
+          "id": "CB1",
+          "kind": "inference",
+          "textZh": "购买前建议分别核对品牌桥接器与平台控制器。",
+          "textEn": "Before purchase, check the brand bridge and platform controller separately.",
+          "basisRefs": [
+            {
+              "id": "F005",
+              "revision": 1
+            },
+            {
+              "id": "F006",
+              "revision": 1
+            }
+          ],
+          "qualifierZh": "此为研究建议；Type 1组合待核，历史公告不能证明当前完整兼容。",
+          "qualifierEn": "This is research guidance. Type 1 configurations need verification; a historical announcement does not establish current complete compatibility.",
+          "comparisonScope": null,
+          "humanMeaningReview": false
+        },
+        {
+          "id": "CB2",
+          "kind": "hypothesis",
+          "textZh": "先解释前提可能帮助首次接触者理解方案。",
+          "textEn": "Explaining prerequisites first may help new users understand the setup.",
+          "basisRefs": [
+            {
+              "id": "H003",
+              "revision": 1
+            }
+          ],
+          "qualifierZh": "信息效果未验证，样本0，不代表转化提升。",
+          "qualifierEn": "Message effectiveness is untested, with sample size 0; no conversion improvement is established.",
+          "comparisonScope": null,
+          "humanMeaningReview": false
+        }
+      ],
+      "callToAction": "列出未知配置并安排核查，不作无条件兼容承诺。",
+      "reviewState": "draft",
+      "reviewerNote": "",
+      "inputFingerprint": null,
+      "humanReview": null
+    }
+  ],
+  "decisions": [
+    {
+      "id": "D-PRACTICE",
+      "revision": 1,
+      "createdAt": "2026-10-25T17:26:14.806972Z",
+      "updatedAt": "2026-10-25T17:26:14.806972Z",
+      "createdBy": "ai_assisted",
+      "archived": false,
+      "missionRef": {
+        "id": "M-US-CURTAIN",
+        "revision": 1
+      },
+      "question": "在资料有限时，如何解释两款杆式窗帘自动化产品的购买前提？",
+      "options": [
+        {
+          "id": "A",
+          "summary": "A：改装便利方向（草案）",
+          "kind": "message",
+          "messageRefs": [
+            {
+              "id": "M-A",
+              "revision": 1
+            }
+          ],
+          "scenarioRefs": []
+        },
+        {
+          "id": "B",
+          "summary": "B：配置透明方向（草案）",
+          "kind": "message",
+          "messageRefs": [
+            {
+              "id": "M-B",
+              "revision": 1
+            }
+          ],
+          "scenarioRefs": []
+        },
+        {
+          "id": "WAIT",
+          "summary": "暂缓：先补证据",
+          "kind": "defer",
+          "messageRefs": [],
+          "scenarioRefs": []
+        }
+      ],
+      "selectedOptionId": null,
+      "purpose": "research_only",
+      "rationale": "",
+      "tradeoffs": [],
+      "supportingRefs": [],
+      "counterRefs": [],
+      "counterSearchNote": "",
+      "unresolvedGaps": [],
+      "revisitTriggers": [],
+      "owner": "",
+      "decidedAt": null,
+      "nextSteps": [],
+      "state": "draft",
+      "inputFingerprint": null,
+      "rulesVersion": "1.0.0",
+      "previousDecisionRef": null,
+      "changeReason": "AI仅准备候选空表，个人选择和理由留空",
+      "personalReview": null,
+      "english": {}
+    }
+  ],
+  "scenarios": [],
+  "changeEvents": [
+    {
+      "id": "CE-2-1",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "H001",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-2",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "H002",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-3",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "H003",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-4",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "B001",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-5",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "B002",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-6",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "B003",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-7",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "M-A",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-2-8",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "M-B",
+        "revision": 1
+      },
+      "changedFields": [
+        "research_example"
+      ],
+      "reason": "载入原规划的未验证研究样例；实际样本0，AI辅助草案。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:25:18.619Z",
+      "affectedRefs": []
+    },
+    {
+      "id": "CE-PRACTICE-PREP",
+      "entityRefBefore": null,
+      "entityRefAfter": {
+        "id": "D-PRACTICE",
+        "revision": 1
+      },
+      "changedFields": [
+        "practice_preparation"
+      ],
+      "reason": "AI准备独立练习：BR06演算分数和空白决策表；没有用户选择/语义确认。",
+      "authorType": "ai_assisted",
+      "occurredAt": "2026-10-25T17:26:14.806972Z",
+      "affectedRefs": []
+    }
+  ]
+}
